@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — ABK Tech NG</title>
+<meta name="description" content="Articles on software engineering, AI, cloud, and cybersecurity from the ABK Tech NG team.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Blog — ABK Tech NG">
+<meta property="og:description" content="Articles on software engineering, AI, cloud, and cybersecurity from the ABK Tech NG team.">
+<meta property="og:url" content="https://abktech.ng/blog.html">
+<meta property="og:image" content="https://abktech.ng/images/logo-full.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Blog — ABK Tech NG">
+<meta name="twitter:description" content="Articles on software engineering, AI, cloud, and cybersecurity from the ABK Tech NG team.">
+<meta name="twitter:image" content="https://abktech.ng/images/logo-full.jpg">
+
+<link rel="icon" type="image/png" href="images/favicon-32.png">
+<link rel="apple-touch-icon" href="images/favicon-180.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<canvas id="circuit-bg"></canvas>
+<div class="grain"></div>
+
+<header id="site-header">
+  <div class="wrap">
+    <nav>
+      <a href="index.html" class="logo">
+        <img src="images/logo-mark.png" alt="ABK Tech NG" class="logo-img">
+      </a>
+      <ul class="nav-links">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="index.html#why">Why Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta-group">
+        <a href="contact.html" class="btn btn-ghost">Get in touch</a>
+        <a href="contact.html" class="btn btn-primary">Start a project</a>
+      </div>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+<div class="mobile-menu" id="mobile-menu">
+  <ul class="mobile-nav-links">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="index.html#why">Why Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+  <div class="mobile-menu-cta">
+    <a href="contact.html" class="btn btn-ghost">Get in touch</a>
+    <a href="contact.html" class="btn btn-primary">Start a project</a>
+  </div>
+</div>
+
+
+
+<main>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="eyebrow"><span class="dot"></span> Insights</span>
+      <h1>Notes from the <span class="grad">engineering room.</span></h1>
+      <p class="lede">Practical writing on software, AI, cloud, and security — from the team building it day to day.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="wrap">
+
+      <a href="#" class="featured-post reveal" style="text-decoration:none; color:inherit;">
+        <div class="featured-visual"><div class="grid-lines"></div></div>
+        <div class="featured-body">
+          <span class="post-cat">Artificial Intelligence</span>
+          <h2>What "AI-ready" actually means for a mid-size business</h2>
+          <p>Most companies don't need a bigger AI strategy — they need cleaner data and one well-scoped use case. Here's how we evaluate where AI genuinely helps before we recommend building anything.</p>
+          <div class="post-meta"><span>ABK Tech NG Team</span><span class="sep"></span><span>7 min read</span></div>
+        </div>
+      </a>
+
+      <div class="blog-grid">
+
+        <div class="post-card reveal">
+          <div class="post-visual"><div class="grid-lines"></div></div>
+          <div class="post-card-body">
+            <span class="post-cat">Cybersecurity</span>
+            <h3>Five security gaps we find in almost every audit</h3>
+            <p>The vulnerabilities that show up again and again — and why most of them are cheap to fix once you know to look.</p>
+            <div class="post-meta"><span>5 min read</span></div>
+          </div>
+        </div>
+
+        <div class="post-card reveal">
+          <div class="post-visual"><div class="grid-lines"></div></div>
+          <div class="post-card-body">
+            <span class="post-cat">Cloud</span>
+            <h3>When to migrate to the cloud — and when not to</h3>
+            <p>Cloud migration isn't always the right call. A practical framework for deciding if now is the time.</p>
+            <div class="post-meta"><span>6 min read</span></div>
+          </div>
+        </div>
+
+        <div class="post-card reveal">
+          <div class="post-visual"><div class="grid-lines"></div></div>
+          <div class="post-card-body">
+            <span class="post-cat">Software Engineering</span>
+            <h3>Why we write fewer features, not more</h3>
+            <p>Our approach to scoping product work — and why saying no to features is often the highest-leverage decision.</p>
+            <div class="post-meta"><span>4 min read</span></div>
+          </div>
+        </div>
+
+        <div class="post-card reveal">
+          <div class="post-visual"><div class="grid-lines"></div></div>
+          <div class="post-card-body">
+            <span class="post-cat">Web Development</span>
+            <h3>The real cost of a slow website</h3>
+            <p>Performance isn't a vanity metric — it's a business one. How we approach speed from day one of a build.</p>
+            <div class="post-meta"><span>5 min read</span></div>
+          </div>
+        </div>
+
+        <div class="post-card reveal">
+          <div class="post-visual"><div class="grid-lines"></div></div>
+          <div class="post-card-body">
+            <span class="post-cat">Industry</span>
+            <h3>Building technology teams in Nigeria's growing tech scene</h3>
+            <p>What we've learned building an engineering team and client base from Lagos outward.</p>
+            <div class="post-meta"><span>6 min read</span></div>
+          </div>
+        </div>
+
+        <div class="post-card reveal">
+          <div class="post-visual"><div class="grid-lines"></div></div>
+          <div class="post-card-body">
+            <span class="post-cat">Automation</span>
+            <h3>Where automation actually pays off first</h3>
+            <p>The unglamorous, repetitive processes that make the best first automation projects — and how to spot them.</p>
+            <div class="post-meta"><span>4 min read</span></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="newsletter-block reveal">
+        <div>
+          <h3>Get new articles in your inbox</h3>
+          <p>Occasional, practical writing on technology — no spam, unsubscribe any time.</p>
+        </div>
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" name="email" placeholder="you@company.com" required>
+          <input type="hidden" name="form_type" value="Newsletter signup">
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="images/logo-mark.png" alt="ABK Tech NG" class="logo-img"></a>
+        <p>Building the future through technology — software, AI, cloud, and security for businesses ready to grow.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul><li><a href="about.html">About</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="careers.html">Careers</a></li><li><a href="blog.html">Blog</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul><li><a href="services.html">Software Development</a></li><li><a href="services.html">Artificial Intelligence</a></li><li><a href="services.html">Cloud & DevOps</a></li><li><a href="services.html">Cybersecurity</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Service</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 ABK Tech NG. All rights reserved.</span>
+      <div class="footer-social">
+        <a href="https://t.me/Abk_tech_Ng" target="_blank" rel="noopener" aria-label="Telegram">TG</a>
+        <a href="https://x.com/Abk_tech_ng" target="_blank" rel="noopener" aria-label="X / Twitter">X</a>
+        <a href="https://wa.me/2347046644623" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/particles.js" defer></script>
+<script src="js/main.js" defer></script>
+
+</body>
+</html>

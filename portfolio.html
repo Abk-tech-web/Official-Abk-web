@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — ABK Tech NG</title>
+<meta name="description" content="Selected project work from ABK Tech NG across software, AI, cloud and cybersecurity.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Portfolio — ABK Tech NG">
+<meta property="og:description" content="Selected project work from ABK Tech NG across software, AI, cloud and cybersecurity.">
+<meta property="og:url" content="https://abktech.ng/portfolio.html">
+<meta property="og:image" content="https://abktech.ng/images/logo-full.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Portfolio — ABK Tech NG">
+<meta name="twitter:description" content="Selected project work from ABK Tech NG across software, AI, cloud and cybersecurity.">
+<meta name="twitter:image" content="https://abktech.ng/images/logo-full.jpg">
+
+<link rel="icon" type="image/png" href="images/favicon-32.png">
+<link rel="apple-touch-icon" href="images/favicon-180.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<canvas id="circuit-bg"></canvas>
+<div class="grain"></div>
+
+<header id="site-header">
+  <div class="wrap">
+    <nav>
+      <a href="index.html" class="logo">
+        <img src="images/logo-mark.png" alt="ABK Tech NG" class="logo-img">
+      </a>
+      <ul class="nav-links">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="index.html#why">Why Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta-group">
+        <a href="contact.html" class="btn btn-ghost">Get in touch</a>
+        <a href="contact.html" class="btn btn-primary">Start a project</a>
+      </div>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+<div class="mobile-menu" id="mobile-menu">
+  <ul class="mobile-nav-links">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="index.html#why">Why Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+  <div class="mobile-menu-cta">
+    <a href="contact.html" class="btn btn-ghost">Get in touch</a>
+    <a href="contact.html" class="btn btn-primary">Start a project</a>
+  </div>
+</div>
+
+
+
+<main>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="eyebrow"><span class="dot"></span> Selected work</span>
+      <h1>Work shaped around real <span class="grad">problems.</span></h1>
+      <p class="lede">A look at the kind of projects we take on — from product builds to infrastructure work. Case studies shown here are representative of our project scope and approach.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="wrap">
+
+      <div class="filter-row reveal">
+        <button class="filter-btn active" data-filter="all">All Work</button>
+        <button class="filter-btn" data-filter="software">Software</button>
+        <button class="filter-btn" data-filter="ai">AI</button>
+        <button class="filter-btn" data-filter="cloud">Cloud</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolio-grid">
+
+        <div class="case-card reveal" data-category="software">
+          <div class="case-visual"><div class="grid-lines"></div>
+            <div class="device-mock"><div class="bar"></div></div>
+          </div>
+          <div class="case-body">
+            <span class="case-tag">Software Development</span>
+            <h3>Operations platform for a logistics business</h3>
+            <p>A custom internal platform replacing spreadsheets and manual tracking — built around how the operations team actually works, from dispatch to delivery confirmation.</p>
+            <div class="case-meta"><span>Web App</span><span>Node.js</span><span>PostgreSQL</span></div>
+          </div>
+        </div>
+
+        <div class="case-card reveal" data-category="ai">
+          <div class="case-visual"><div class="grid-lines"></div>
+            <div class="device-mock"><div class="bar"></div></div>
+          </div>
+          <div class="case-body">
+            <span class="case-tag">Artificial Intelligence</span>
+            <h3>Document automation for a financial services team</h3>
+            <p>An AI-assisted pipeline that reads, classifies, and routes incoming documents — cutting manual review time and reducing errors in high-volume workflows.</p>
+            <div class="case-meta"><span>Machine Learning</span><span>Python</span><span>Automation</span></div>
+          </div>
+        </div>
+
+        <div class="case-card reveal" data-category="cloud">
+          <div class="case-visual"><div class="grid-lines"></div>
+            <div class="device-mock"><div class="bar"></div></div>
+          </div>
+          <div class="case-body">
+            <span class="case-tag">Cloud Engineering</span>
+            <h3>Infrastructure migration for a growing SaaS product</h3>
+            <p>Moved a growing application from a single fragile server onto a resilient cloud architecture with CI/CD, monitoring, and room to scale.</p>
+            <div class="case-meta"><span>AWS</span><span>DevOps</span><span>CI/CD</span></div>
+          </div>
+        </div>
+
+        <div class="case-card reveal" data-category="design">
+          <div class="case-visual"><div class="grid-lines"></div>
+            <div class="device-mock"><div class="bar"></div></div>
+          </div>
+          <div class="case-body">
+            <span class="case-tag">Product Design</span>
+            <h3>Brand and product design for a fintech launch</h3>
+            <p>Full identity and product design system for a new digital banking product — from first wireframe to a launch-ready interface.</p>
+            <div class="case-meta"><span>UI/UX</span><span>Brand Identity</span><span>Figma</span></div>
+          </div>
+        </div>
+
+        <div class="case-card reveal" data-category="software">
+          <div class="case-visual"><div class="grid-lines"></div>
+            <div class="device-mock"><div class="bar"></div></div>
+          </div>
+          <div class="case-body">
+            <span class="case-tag">Mobile Development</span>
+            <h3>Customer app for a retail chain</h3>
+            <p>A mobile ordering and loyalty app built to handle real traffic from day one, with a backend designed for peak-hour reliability.</p>
+            <div class="case-meta"><span>React Native</span><span>API Development</span></div>
+          </div>
+        </div>
+
+        <div class="case-card reveal" data-category="cloud">
+          <div class="case-visual"><div class="grid-lines"></div>
+            <div class="device-mock"><div class="bar"></div></div>
+          </div>
+          <div class="case-body">
+            <span class="case-tag">Cybersecurity</span>
+            <h3>Security hardening for an e-commerce platform</h3>
+            <p>A full security audit and remediation pass — closing vulnerabilities, hardening infrastructure, and setting up ongoing monitoring.</p>
+            <div class="case-meta"><span>Security Audit</span><span>Monitoring</span></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="note-banner reveal">
+        <span class="icon">ⓘ</span>
+        <span>These case studies illustrate the type and scope of work we take on. Replace with your real client projects, screenshots, and results before this site goes live.</span>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="cta-banner reveal">
+        <h2>Have a project that looks like this?</h2>
+        <p>Let's talk through what you're building and how we'd approach it.</p>
+        <div class="cta-ctas">
+          <a href="contact.html" class="btn btn-primary">Start a project →</a>
+          <a href="services.html" class="btn btn-ghost">See our services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="images/logo-mark.png" alt="ABK Tech NG" class="logo-img"></a>
+        <p>Building the future through technology — software, AI, cloud, and security for businesses ready to grow.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul><li><a href="about.html">About</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="careers.html">Careers</a></li><li><a href="blog.html">Blog</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul><li><a href="services.html">Software Development</a></li><li><a href="services.html">Artificial Intelligence</a></li><li><a href="services.html">Cloud & DevOps</a></li><li><a href="services.html">Cybersecurity</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Service</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 ABK Tech NG. All rights reserved.</span>
+      <div class="footer-social">
+        <a href="https://t.me/Abk_tech_Ng" target="_blank" rel="noopener" aria-label="Telegram">TG</a>
+        <a href="https://x.com/Abk_tech_ng" target="_blank" rel="noopener" aria-label="X / Twitter">X</a>
+        <a href="https://wa.me/2347046644623" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/particles.js" defer></script>
+<script src="js/main.js" defer></script>
+
+</body>
+</html>
